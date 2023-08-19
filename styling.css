@@ -1,0 +1,75 @@
+/* remove this border later */
+/* {
+    border: 2px solid rgb(196, 71, 109);
+}
+/***************************/
+body {
+    font-family: 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+li {
+    list-style: none;
+    display: inline;
+    color: rgb(104, 103, 103);
+    padding: 8px;
+}
+
+li:link {
+    text-decoration: none;
+}
+li:hover {
+    text-decoration: underline;
+    color: rgb(89, 120, 134);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 150vh;
+}
+
+
+/*********************************
+* Header
+*********************************/
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*********************************
+* Aside
+*********************************/
+aside {
+    flex-grow: 4;
+}
+.text-under-search-bar ul {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 9px;
+}
+
+/*********************************
+* Footer
+*********************************/              
+footer {
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    font-size: smaller;
+    color: lightslategray;
+    background-color: rgb(245, 204, 245);
+}
+
+#bottom-text {
+    font-size: smaller;
+    color: lightslategray;
+}
+
+
+
+
+
+
+
